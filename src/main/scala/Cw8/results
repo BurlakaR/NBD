@@ -1,0 +1,11 @@
+/usr/local/lib/python2.7/dist-packages/riak-2.7.0-py2.7.egg/riak/security.py:45: UserWarning: OpenSSL 1.0.1f 6 Jan 2014 (>= 1.0.1g required), TLS 1.2 support: True
+All documents have been added.
+Riak: 
+[{u'hit die': 10, u'Saves': u'Strength+Constitution', u'class': u'Fighter', u'Primary Ability': u'Strength'}, {u'hit die': 8, u'Saves': u'Wisdom+Charisma', u'class': u'Cleric', u'Primary Ability': u'Wisdom '}, {u'hit die': 8, u'Saves': u'Dexterity+Intelligence', u'class': u'Rogue', u'Primary Ability': u'Dexterity '}, {u'hit die': 6, u'Saves': u'Intelligence+Wisdom', u'class': u'Wizard', u'Primary Ability': u'Intelligence'}]
+Updated Fighter : 
+{u'hit die': 10, u'Saves': u'Strength+Constitution', u'class': u'Fighter', u'Primary Ability': u'Dexterity'}
+Deleted document reading: 
+None
+None
+None
+None

@@ -1,0 +1,1388 @@
+﻿[
+  {
+    "path": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 64,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "CRP"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 40,
+"start": 103,
+"end": 5,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 41,
+"start": 103,
+"end": 2,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          },
+          "relationship": {
+"identity": 840,
+"start": 743,
+"end": 2,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 743,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/2/2015 07:54:11",
+"duration": 36,
+"distance": 201,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 743,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/2/2015 07:54:11",
+"duration": 36,
+"distance": 201,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 841,
+"start": 743,
+"end": 64,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 64,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "CRP"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "ticketPrice": 1230.0
+  },
+  {
+    "path": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 64,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "CRP"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 40,
+"start": 103,
+"end": 5,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 41,
+"start": 103,
+"end": 2,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          },
+          "relationship": {
+"identity": 820,
+"start": 727,
+"end": 2,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 727,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/12/2015 16:57:59",
+"duration": 38,
+"distance": 201,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 727,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/12/2015 16:57:59",
+"duration": 38,
+"distance": 201,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 821,
+"start": 727,
+"end": 64,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 64,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "CRP"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "ticketPrice": 1230.0
+  },
+  {
+    "path": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 64,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "CRP"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 40,
+"start": 103,
+"end": 5,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 41,
+"start": 103,
+"end": 2,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          },
+          "relationship": {
+"identity": 830,
+"start": 735,
+"end": 2,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 735,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/9/2015 11:14:16",
+"duration": 36,
+"distance": 201,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 735,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/9/2015 11:14:16",
+"duration": 36,
+"distance": 201,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 831,
+"start": 735,
+"end": 64,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 64,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "CRP"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "ticketPrice": 1230.0
+  },
+  {
+    "path": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 64,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "CRP"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 40,
+"start": 103,
+"end": 5,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 41,
+"start": 103,
+"end": 2,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          },
+          "relationship": {
+"identity": 800,
+"start": 711,
+"end": 2,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 711,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/13/2015 16:08:05",
+"duration": 38,
+"distance": 201,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 711,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/13/2015 16:08:05",
+"duration": 38,
+"distance": 201,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 801,
+"start": 711,
+"end": 64,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 64,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "CRP"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "ticketPrice": 1230.0
+  },
+  {
+    "path": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 64,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "CRP"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 40,
+"start": 103,
+"end": 5,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 41,
+"start": 103,
+"end": 2,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          },
+          "relationship": {
+"identity": 815,
+"start": 723,
+"end": 2,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 723,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/6/2015 16:43:30",
+"duration": 38,
+"distance": 201,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 723,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/6/2015 16:43:30",
+"duration": 38,
+"distance": 201,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 816,
+"start": 723,
+"end": 64,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 64,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "CRP"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "ticketPrice": 1230.0
+  },
+  {
+    "path": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 64,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "CRP"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 40,
+"start": 103,
+"end": 5,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 41,
+"start": 103,
+"end": 2,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          },
+          "relationship": {
+"identity": 835,
+"start": 739,
+"end": 2,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 739,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/19/2015 11:49:13",
+"duration": 36,
+"distance": 201,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 739,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/19/2015 11:49:13",
+"duration": 36,
+"distance": 201,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 836,
+"start": 739,
+"end": 64,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 64,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "CRP"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "ticketPrice": 1230.0
+  },
+  {
+    "path": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 64,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "CRP"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 40,
+"start": 103,
+"end": 5,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 41,
+"start": 103,
+"end": 2,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          },
+          "relationship": {
+"identity": 810,
+"start": 719,
+"end": 2,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 719,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/5/2015 19:14:17",
+"duration": 37,
+"distance": 201,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 719,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/5/2015 19:14:17",
+"duration": 37,
+"distance": 201,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 811,
+"start": 719,
+"end": 64,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 64,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "CRP"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "ticketPrice": 1230.0
+  },
+  {
+    "path": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 64,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "CRP"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 40,
+"start": 103,
+"end": 5,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 41,
+"start": 103,
+"end": 2,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          },
+          "relationship": {
+"identity": 805,
+"start": 715,
+"end": 2,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 715,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/16/2015 08:02:50",
+"duration": 41,
+"distance": 201,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 715,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/16/2015 08:02:50",
+"duration": 41,
+"distance": 201,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 806,
+"start": 715,
+"end": 64,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 64,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "CRP"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "ticketPrice": 1230.75
+  },
+  {
+    "path": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 64,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "CRP"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 40,
+"start": 103,
+"end": 5,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 103,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 13:20:16",
+"duration": 145,
+"distance": 1379,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 41,
+"start": 103,
+"end": 2,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 2,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "IAH"
+            }
+          },
+          "relationship": {
+"identity": 825,
+"start": 731,
+"end": 2,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 731,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/29/2015 08:05:26",
+"duration": 42,
+"distance": 201,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 731,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/29/2015 08:05:26",
+"duration": 42,
+"distance": 201,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 826,
+"start": 731,
+"end": 64,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 64,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "CRP"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "ticketPrice": 1231.5
+  }
+]

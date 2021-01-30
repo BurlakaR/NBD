@@ -1,0 +1,19 @@
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Date: Tue, 08 Dec 2020 14:09:46 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fsYkZr5kYPBTzmBKZMpjZdBidbnJlwUA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s21455>; rel="up"
+Last-Modified: Tue, 08 Dec 2020 14:09:46 GMT
+ETag: "1GL0BReJMnEhTsipMbcRHx"
+Date: Tue, 08 Dec 2020 14:10:09 GMT
+Content-Type: application/json
+Content-Length: 131
+
+{"jedi":"Anakin Skywalker","combat form":"Djem So","midichlorian count":27700,"lightsaber color":"blue", "child": "Luke Skywalker"}

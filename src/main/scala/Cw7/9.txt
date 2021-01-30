@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fsaEO7cwMPgpZjAlMuaxMnSzudzkywIA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s21455>; rel="up"
+Last-Modified: Tue, 08 Dec 2020 14:15:39 GMT
+ETag: "3apGeF9dDGWCVT4HAD3miT"
+Date: Tue, 08 Dec 2020 14:16:42 GMT
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 20
+
+{"jedi":"Kit Fisto"}

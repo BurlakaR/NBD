@@ -1,0 +1,24 @@
+1. MATCH (m:Movie) RETURN m
+
+2. MATCH (per:Person {name: "Hugo Weaving"})-[:ACTED_IN]-> (movies) RETURN per, movies
+
+3. MATCH (per:Person)-[a:ACTED_IN]- (m:Movie), (dir:Person)-[d:DIRECTED]-(m:Movie) WHERE per.name='Hugo Weaving' RETURN per, a, m, dir, d
+
+4. MATCH(per:Person {name: "Hugo Weaving"})-[a1:ACTED_IN]->(movies)<-[a2:ACTED_IN]-(actors) RETURN actors,a1,a2,per,movies
+
+5. MATCH (m:Movie{title:"The Matrix"})<-[a1:ACTED_IN]-(actors)-[a2:ACTED_IN]->(movies) RETURN actors,a1, a2, movies, m
+
+6. MATCH (per:Person)-[:ACTED_IN]->(movie) RETURN per, count(movie) AS nummovies
+
+7. MATCH (per:Person)-[d:DIRECTED]->(m:Movie),(per)-[w:WROTE]->(m) RETURN per,d,m,w
+
+8. MATCH (per1:Person{name:"Hugo Weaving"})-[a1:ACTED_IN]->(m:Movie), (per2:Person{name:"Keanu Reeves"})-[a2:ACTED_IN]->(m) RETURN per1,a1,per2,a2,m
+
+9.CREATE (m:Movie {title:'Captain America: The First Avenger', released:2011, tagline:'The First Avenge'})
+CREATE (per:Person {name:'Chris Evans', born:1981})
+CREATE (per:Person {name:'Samuel L. Jackson', born:1948})
+CREATE (per:Person {name:'Joe Johnston', born:1950})
+CREATE (per:Person {name:'Christopher Markus', born:1970})
+CREATE (per:Person {name:'Stephen McFeely', born:1969})
+CREATE (per1:Person {name:'Chris Evans'})-[:ACTED_IN {roles:['Captain America']}]->(:Movie{title:'Captain America: The First Avenger'}),(per2:Person{name:'Hugo Weaving'})-[:ACTED_IN {roles:['Red Skull']}]->(:Movie{title:'Captain America: The First Avenger'}),(per3:Person {name:'Samuel L. Jackson'})-[:ACTED_IN {roles:['Nick Fury']}]->(:Movie{title:'Captain America: The First Avenger'}), (per4:Person {name:'Joe Johnston'})-[:DIRECTED]->(m:Movie{title:'Captain America: The First Avenger'}),(per5:Person {name:'Christopher Markus'})-[:WROTE]->(:Movie{title:'Captain America: The First Avenger'}),(per6:Person {name:'Stephen McFeely'})-[:WROTE]->(:Movie{title:'Captain America: The First Avenger'})
+MATCH(per:Person)-[d:DIRECTED]->(movie:Movie{title:"Captain America: The First Avenger "})<-[a:ACTED_IN]-(actors:Person),(writer:Person)-[w:WROTE]->(movie) RETURN movie,director,d,actors,a,writer,w

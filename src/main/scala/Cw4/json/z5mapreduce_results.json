@@ -1,0 +1,517 @@
+MongoDB shell version v4.4.0
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("3ab74a16-29a8-48c6-a93a-9e91d4b0eb4f") }
+MongoDB server version: 4.4.0
+[
+	{
+		"_id" : "NIO",
+		"value" : {
+			"averageFunds" : "4985.64",
+			"totalFunds" : 9971.28
+		}
+	},
+	{
+		"_id" : "RWF",
+		"value" : {
+			"averageFunds" : "4632.88",
+			"totalFunds" : 4632.88
+		}
+	},
+	{
+		"_id" : "JPY",
+		"value" : {
+			"averageFunds" : "5078.73",
+			"totalFunds" : 60944.74
+		}
+	},
+	{
+		"_id" : "BRL",
+		"value" : {
+			"averageFunds" : "4512.00",
+			"totalFunds" : 49632.020000000004
+		}
+	},
+	{
+		"_id" : "COP",
+		"value" : {
+			"averageFunds" : "4936.68",
+			"totalFunds" : 19746.73
+		}
+	},
+	{
+		"_id" : "KZT",
+		"value" : {
+			"averageFunds" : "3788.95",
+			"totalFunds" : 3788.95
+		}
+	},
+	{
+		"_id" : "NGN",
+		"value" : {
+			"averageFunds" : "4157.70",
+			"totalFunds" : 24946.23
+		}
+	},
+	{
+		"_id" : "BOB",
+		"value" : {
+			"averageFunds" : "5263.30",
+			"totalFunds" : 5263.3
+		}
+	},
+	{
+		"_id" : "ALL",
+		"value" : {
+			"averageFunds" : "3325.48",
+			"totalFunds" : 3325.48
+		}
+	},
+	{
+		"_id" : "CZK",
+		"value" : {
+			"averageFunds" : "4644.55",
+			"totalFunds" : 37156.420000000006
+		}
+	},
+	{
+		"_id" : "ARS",
+		"value" : {
+			"averageFunds" : "4648.40",
+			"totalFunds" : 23242
+		}
+	},
+	{
+		"_id" : "ISK",
+		"value" : {
+			"averageFunds" : "4316.41",
+			"totalFunds" : 4316.41
+		}
+	},
+	{
+		"_id" : "IQD",
+		"value" : {
+			"averageFunds" : "4269.39",
+			"totalFunds" : 4269.39
+		}
+	},
+	{
+		"_id" : "PYG",
+		"value" : {
+			"averageFunds" : "4874.69",
+			"totalFunds" : 4874.69
+		}
+	},
+	{
+		"_id" : "BYR",
+		"value" : {
+			"averageFunds" : "5095.79",
+			"totalFunds" : 5095.79
+		}
+	},
+	{
+		"_id" : "PLN",
+		"value" : {
+			"averageFunds" : "5042.82",
+			"totalFunds" : 90770.77999999998
+		}
+	},
+	{
+		"_id" : "UZS",
+		"value" : {
+			"averageFunds" : "3573.03",
+			"totalFunds" : 3573.03
+		}
+	},
+	{
+		"_id" : "USD",
+		"value" : {
+			"averageFunds" : "4978.73",
+			"totalFunds" : 74680.98000000001
+		}
+	},
+	{
+		"_id" : "IRR",
+		"value" : {
+			"averageFunds" : "4417.37",
+			"totalFunds" : 26504.24
+		}
+	},
+	{
+		"_id" : "HRK",
+		"value" : {
+			"averageFunds" : "4870.96",
+			"totalFunds" : 24354.82
+		}
+	},
+	{
+		"_id" : "PEN",
+		"value" : {
+			"averageFunds" : "4661.23",
+			"totalFunds" : 18644.94
+		}
+	},
+	{
+		"_id" : "HNL",
+		"value" : {
+			"averageFunds" : "5504.86",
+			"totalFunds" : 16514.59
+		}
+	},
+	{
+		"_id" : "DOP",
+		"value" : {
+			"averageFunds" : "5168.68",
+			"totalFunds" : 20674.739999999998
+		}
+	},
+	{
+		"_id" : "LYD",
+		"value" : {
+			"averageFunds" : "4382.49",
+			"totalFunds" : 8764.99
+		}
+	},
+	{
+		"_id" : "PHP",
+		"value" : {
+			"averageFunds" : "4941.93",
+			"totalFunds" : 118606.27999999998
+		}
+	},
+	{
+		"_id" : "NPR",
+		"value" : {
+			"averageFunds" : "5792.26",
+			"totalFunds" : 5792.26
+		}
+	},
+	{
+		"_id" : "CNY",
+		"value" : {
+			"averageFunds" : "4954.74",
+			"totalFunds" : 470700.38000000006
+		}
+	},
+	{
+		"_id" : "CUP",
+		"value" : {
+			"averageFunds" : "5005.78",
+			"totalFunds" : 15017.34
+		}
+	},
+	{
+		"_id" : "GTQ",
+		"value" : {
+			"averageFunds" : "5806.30",
+			"totalFunds" : 5806.3
+		}
+	},
+	{
+		"_id" : "XAF",
+		"value" : {
+			"averageFunds" : "4698.22",
+			"totalFunds" : 14094.660000000002
+		}
+	},
+	{
+		"_id" : "XOF",
+		"value" : {
+			"averageFunds" : "5960.68",
+			"totalFunds" : 17882.05
+		}
+	},
+	{
+		"_id" : "PKR",
+		"value" : {
+			"averageFunds" : "4734.50",
+			"totalFunds" : 18938
+		}
+	},
+	{
+		"_id" : "SEK",
+		"value" : {
+			"averageFunds" : "5060.01",
+			"totalFunds" : 70840.19
+		}
+	},
+	{
+		"_id" : "KRW",
+		"value" : {
+			"averageFunds" : "6689.91",
+			"totalFunds" : 13379.82
+		}
+	},
+	{
+		"_id" : "ZMW",
+		"value" : {
+			"averageFunds" : "5569.56",
+			"totalFunds" : 5569.56
+		}
+	},
+	{
+		"_id" : "MWK",
+		"value" : {
+			"averageFunds" : "3574.42",
+			"totalFunds" : 3574.42
+		}
+	},
+	{
+		"_id" : "THB",
+		"value" : {
+			"averageFunds" : "4604.39",
+			"totalFunds" : 23021.96
+		}
+	},
+	{
+		"_id" : "MGA",
+		"value" : {
+			"averageFunds" : "4853.66",
+			"totalFunds" : 14560.99
+		}
+	},
+	{
+		"_id" : "CLP",
+		"value" : {
+			"averageFunds" : "5252.24",
+			"totalFunds" : 21008.95
+		}
+	},
+	{
+		"_id" : "GBP",
+		"value" : {
+			"averageFunds" : "6149.19",
+			"totalFunds" : 6149.19
+		}
+	},
+	{
+		"_id" : "XPF",
+		"value" : {
+			"averageFunds" : "4759.07",
+			"totalFunds" : 4759.07
+		}
+	},
+	{
+		"_id" : "BGN",
+		"value" : {
+			"averageFunds" : "5300.22",
+			"totalFunds" : 21200.88
+		}
+	},
+	{
+		"_id" : "RUB",
+		"value" : {
+			"averageFunds" : "4989.55",
+			"totalFunds" : 119749.15
+		}
+	},
+	{
+		"_id" : "TZS",
+		"value" : {
+			"averageFunds" : "3526.19",
+			"totalFunds" : 7052.370000000001
+		}
+	},
+	{
+		"_id" : "MAD",
+		"value" : {
+			"averageFunds" : "3818.85",
+			"totalFunds" : 3818.85
+		}
+	},
+	{
+		"_id" : "VEF",
+		"value" : {
+			"averageFunds" : "4166.64",
+			"totalFunds" : 8333.28
+		}
+	},
+	{
+		"_id" : "ILS",
+		"value" : {
+			"averageFunds" : "5431.83",
+			"totalFunds" : 16295.489999999998
+		}
+	},
+	{
+		"_id" : "VUV",
+		"value" : {
+			"averageFunds" : "6418.27",
+			"totalFunds" : 6418.27
+		}
+	},
+	{
+		"_id" : "MXN",
+		"value" : {
+			"averageFunds" : "5022.90",
+			"totalFunds" : 50228.99999999999
+		}
+	},
+	{
+		"_id" : "CAD",
+		"value" : {
+			"averageFunds" : "5306.87",
+			"totalFunds" : 58375.6
+		}
+	},
+	{
+		"_id" : "UAH",
+		"value" : {
+			"averageFunds" : "5058.98",
+			"totalFunds" : 40471.840000000004
+		}
+	},
+	{
+		"_id" : "NZD",
+		"value" : {
+			"averageFunds" : "5328.46",
+			"totalFunds" : 5328.46
+		}
+	},
+	{
+		"_id" : "VND",
+		"value" : {
+			"averageFunds" : "4520.03",
+			"totalFunds" : 36160.259999999995
+		}
+	},
+	{
+		"_id" : "MKD",
+		"value" : {
+			"averageFunds" : "3835.05",
+			"totalFunds" : 3835.05
+		}
+	},
+	{
+		"_id" : "TJS",
+		"value" : {
+			"averageFunds" : "4087.71",
+			"totalFunds" : 4087.71
+		}
+	},
+	{
+		"_id" : "IDR",
+		"value" : {
+			"averageFunds" : "4907.92",
+			"totalFunds" : 323922.59
+		}
+	},
+	{
+		"_id" : "EUR",
+		"value" : {
+			"averageFunds" : "4901.83",
+			"totalFunds" : 245091.46999999994
+		}
+	},
+	{
+		"_id" : "ETB",
+		"value" : {
+			"averageFunds" : "5436.11",
+			"totalFunds" : 5436.11
+		}
+	},
+	{
+		"_id" : "BWP",
+		"value" : {
+			"averageFunds" : "4076.29",
+			"totalFunds" : 4076.29
+		}
+	},
+	{
+		"_id" : "SRD",
+		"value" : {
+			"averageFunds" : "5286.68",
+			"totalFunds" : 5286.68
+		}
+	},
+	{
+		"_id" : "CDF",
+		"value" : {
+			"averageFunds" : "6114.40",
+			"totalFunds" : 12228.8
+		}
+	},
+	{
+		"_id" : "NOK",
+		"value" : {
+			"averageFunds" : "4773.66",
+			"totalFunds" : 4773.66
+		}
+	},
+	{
+		"_id" : "RSD",
+		"value" : {
+			"averageFunds" : "4276.56",
+			"totalFunds" : 4276.56
+		}
+	},
+	{
+		"_id" : "ZWL",
+		"value" : {
+			"averageFunds" : "5792.17",
+			"totalFunds" : 5792.17
+		}
+	},
+	{
+		"_id" : "MYR",
+		"value" : {
+			"averageFunds" : "4781.12",
+			"totalFunds" : 4781.12
+		}
+	},
+	{
+		"_id" : "AFN",
+		"value" : {
+			"averageFunds" : "5585.16",
+			"totalFunds" : 16755.49
+		}
+	},
+	{
+		"_id" : "EGP",
+		"value" : {
+			"averageFunds" : "5579.30",
+			"totalFunds" : 5579.3
+		}
+	},
+	{
+		"_id" : "AMD",
+		"value" : {
+			"averageFunds" : "4921.87",
+			"totalFunds" : 24609.33
+		}
+	},
+	{
+		"_id" : "MMK",
+		"value" : {
+			"averageFunds" : "4629.42",
+			"totalFunds" : 4629.42
+		}
+	},
+	{
+		"_id" : "YER",
+		"value" : {
+			"averageFunds" : "4570.83",
+			"totalFunds" : 13712.5
+		}
+	},
+	{
+		"_id" : "MNT",
+		"value" : {
+			"averageFunds" : "5428.90",
+			"totalFunds" : 21715.61
+		}
+	},
+	{
+		"_id" : "KYD",
+		"value" : {
+			"averageFunds" : "3760.89",
+			"totalFunds" : 3760.89
+		}
+	},
+	{
+		"_id" : "ZAR",
+		"value" : {
+			"averageFunds" : "3930.31",
+			"totalFunds" : 11790.92
+		}
+	}
+]

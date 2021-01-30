@@ -1,0 +1,165 @@
+﻿[
+  {
+    "per": {
+"identity": 45,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Cameron Crowe",
+"born": 1957
+      }
+    },
+    "d": {
+"identity": 57,
+"start": 45,
+"end": 37,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "m": {
+"identity": 37,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "The rest of his life begins now.",
+"title": "Jerry Maguire",
+"released": 2000
+      }
+    },
+    "w": {
+"identity": 59,
+"start": 45,
+"end": 37,
+"type": "WROTE",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "per": {
+"identity": 6,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Lana Wachowski",
+"born": 1965
+      }
+    },
+    "d": {
+"identity": 168,
+"start": 6,
+"end": 119,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "m": {
+"identity": 119,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Speed has no limits",
+"title": "Speed Racer",
+"released": 2008
+      }
+    },
+    "w": {
+"identity": 170,
+"start": 6,
+"end": 119,
+"type": "WROTE",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "per": {
+"identity": 5,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Andy Wachowski",
+"born": 1967
+      }
+    },
+    "d": {
+"identity": 167,
+"start": 5,
+"end": 119,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "m": {
+"identity": 119,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Speed has no limits",
+"title": "Speed Racer",
+"released": 2008
+      }
+    },
+    "w": {
+"identity": 169,
+"start": 5,
+"end": 119,
+"type": "WROTE",
+"properties": {
+
+      }
+    }
+  },
+  {
+    "per": {
+"identity": 154,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Nancy Meyers",
+"born": 1949
+      }
+    },
+    "d": {
+"identity": 220,
+"start": 154,
+"end": 152,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "m": {
+"identity": 152,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Something's Gotta Give",
+"released": 2003
+      }
+    },
+    "w": {
+"identity": 222,
+"start": 154,
+"end": 152,
+"type": "WROTE",
+"properties": {
+
+      }
+    }
+  }
+]

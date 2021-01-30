@@ -1,0 +1,20 @@
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Date: Tue, 08 Dec 2020 14:13:01 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fsYkZr5kYPBTzmBKZM5jZXjL6nKTLwsA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s21455>; rel="up"
+Last-Modified: Tue, 08 Dec 2020 14:13:01 GMT
+ETag: "6pLROWntya3FfCyNTEdZdu"
+Date: Tue, 08 Dec 2020 14:13:25 GMT
+Content-Type: application/json
+Content-Length: 125
+
+{"jedi":"Darth Vader","combat form":"Djem So","midichlorian count":27700,"lightsaber color":"red", "child": "Luke Skywalker"}

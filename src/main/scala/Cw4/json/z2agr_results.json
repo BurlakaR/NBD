@@ -1,0 +1,622 @@
+MongoDB shell version v4.4.0
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("76c0ca8f-aa9f-44ea-b470-8911bd72570e") }
+MongoDB server version: 4.4.0
+[
+	{
+		"_id" : "SAR",
+		"funds" : NumberDecimal("161706.00")
+	},
+	{
+		"_id" : "TTD",
+		"funds" : NumberDecimal("44044.89")
+	},
+	{
+		"_id" : "MRO",
+		"funds" : NumberDecimal("44471.32")
+	},
+	{
+		"_id" : "VUV",
+		"funds" : NumberDecimal("23188.93")
+	},
+	{
+		"_id" : "ILS",
+		"funds" : NumberDecimal("758807.63")
+	},
+	{
+		"_id" : "BBD",
+		"funds" : NumberDecimal("26720.50")
+	},
+	{
+		"_id" : "MGA",
+		"funds" : NumberDecimal("377675.55")
+	},
+	{
+		"_id" : "BGN",
+		"funds" : NumberDecimal("496641.83")
+	},
+	{
+		"_id" : "XPF",
+		"funds" : NumberDecimal("132926.01")
+	},
+	{
+		"_id" : "DKK",
+		"funds" : NumberDecimal("222452.28")
+	},
+	{
+		"_id" : "TRY",
+		"funds" : NumberDecimal("18414.53")
+	},
+	{
+		"_id" : "AMD",
+		"funds" : NumberDecimal("602964.09")
+	},
+	{
+		"_id" : "KHR",
+		"funds" : NumberDecimal("100447.58")
+	},
+	{
+		"_id" : "INR",
+		"funds" : NumberDecimal("24172.94")
+	},
+	{
+		"_id" : "QAR",
+		"funds" : NumberDecimal("36358.92")
+	},
+	{
+		"_id" : "SLL",
+		"funds" : NumberDecimal("116224.90")
+	},
+	{
+		"_id" : "RSD",
+		"funds" : NumberDecimal("817403.54")
+	},
+	{
+		"_id" : "GNF",
+		"funds" : NumberDecimal("73222.48")
+	},
+	{
+		"_id" : "TOP",
+		"funds" : NumberDecimal("18424.47")
+	},
+	{
+		"_id" : "KYD",
+		"funds" : NumberDecimal("16809.66")
+	},
+	{
+		"_id" : "MNT",
+		"funds" : NumberDecimal("639977.48")
+	},
+	{
+		"_id" : "HUF",
+		"funds" : NumberDecimal("165192.16")
+	},
+	{
+		"_id" : "HKD",
+		"funds" : NumberDecimal("23023.02")
+	},
+	{
+		"_id" : "YER",
+		"funds" : NumberDecimal("583657.38")
+	},
+	{
+		"_id" : "VND",
+		"funds" : NumberDecimal("1395639.11")
+	},
+	{
+		"_id" : "MKD",
+		"funds" : NumberDecimal("436912.01")
+	},
+	{
+		"_id" : "WST",
+		"funds" : NumberDecimal("30739.64")
+	},
+	{
+		"_id" : "SZL",
+		"funds" : NumberDecimal("59113.09")
+	},
+	{
+		"_id" : "GHS",
+		"funds" : NumberDecimal("83159.05")
+	},
+	{
+		"_id" : "NZD",
+		"funds" : NumberDecimal("338447.54")
+	},
+	{
+		"_id" : "UAH",
+		"funds" : NumberDecimal("2505840.72")
+	},
+	{
+		"_id" : "KWD",
+		"funds" : NumberDecimal("82506.07")
+	},
+	{
+		"_id" : "CDF",
+		"funds" : NumberDecimal("178097.37")
+	},
+	{
+		"_id" : "ETB",
+		"funds" : NumberDecimal("269686.62")
+	},
+	{
+		"_id" : "BWP",
+		"funds" : NumberDecimal("146972.04")
+	},
+	{
+		"_id" : "SOS",
+		"funds" : NumberDecimal("82203.48")
+	},
+	{
+		"_id" : "CVE",
+		"funds" : NumberDecimal("46538.51")
+	},
+	{
+		"_id" : "TJS",
+		"funds" : NumberDecimal("177401.05")
+	},
+	{
+		"_id" : "EUR",
+		"funds" : NumberDecimal("16700089.28")
+	},
+	{
+		"_id" : "USD",
+		"funds" : NumberDecimal("4087165.21")
+	},
+	{
+		"_id" : "UZS",
+		"funds" : NumberDecimal("330309.61")
+	},
+	{
+		"_id" : "PLN",
+		"funds" : NumberDecimal("5066142.40")
+	},
+	{
+		"_id" : "KES",
+		"funds" : NumberDecimal("269798.11")
+	},
+	{
+		"_id" : "CRC",
+		"funds" : NumberDecimal("334544.06")
+	},
+	{
+		"_id" : "SCR",
+		"funds" : NumberDecimal("14797.58")
+	},
+	{
+		"_id" : "HTG",
+		"funds" : NumberDecimal("215992.13")
+	},
+	{
+		"_id" : "KGS",
+		"funds" : NumberDecimal("176827.79")
+	},
+	{
+		"_id" : "AWG",
+		"funds" : NumberDecimal("7282.73")
+	},
+	{
+		"_id" : "BSD",
+		"funds" : NumberDecimal("55361.39")
+	},
+	{
+		"_id" : "HRK",
+		"funds" : NumberDecimal("689403.50")
+	},
+	{
+		"_id" : "STD",
+		"funds" : NumberDecimal("4854.36")
+	},
+	{
+		"_id" : "SRD",
+		"funds" : NumberDecimal("19686.77")
+	},
+	{
+		"_id" : "AUD",
+		"funds" : NumberDecimal("242667.03")
+	},
+	{
+		"_id" : "COP",
+		"funds" : NumberDecimal("1976194.79")
+	},
+	{
+		"_id" : "BOB",
+		"funds" : NumberDecimal("257433.54")
+	},
+	{
+		"_id" : "JPY",
+		"funds" : NumberDecimal("2584824.90")
+	},
+	{
+		"_id" : "AZN",
+		"funds" : NumberDecimal("394880.17")
+	},
+	{
+		"_id" : "TND",
+		"funds" : NumberDecimal("325755.90")
+	},
+	{
+		"_id" : "GMD",
+		"funds" : NumberDecimal("157963.90")
+	},
+	{
+		"_id" : "ISK",
+		"funds" : NumberDecimal("39048.74")
+	},
+	{
+		"_id" : "IQD",
+		"funds" : NumberDecimal("167531.82")
+	},
+	{
+		"_id" : "PYG",
+		"funds" : NumberDecimal("286515.48")
+	},
+	{
+		"_id" : "ARS",
+		"funds" : NumberDecimal("1940347.24")
+	},
+	{
+		"_id" : "DZD",
+		"funds" : NumberDecimal("12166.20")
+	},
+	{
+		"_id" : "ALL",
+		"funds" : NumberDecimal("651597.87")
+	},
+	{
+		"_id" : "BMD",
+		"funds" : NumberDecimal("5189.0")
+	},
+	{
+		"_id" : "XAF",
+		"funds" : NumberDecimal("736336.77")
+	},
+	{
+		"_id" : "XOF",
+		"funds" : NumberDecimal("934043.61")
+	},
+	{
+		"_id" : "GTQ",
+		"funds" : NumberDecimal("588368.85")
+	},
+	{
+		"_id" : "CUP",
+		"funds" : NumberDecimal("514413.88")
+	},
+	{
+		"_id" : "SDG",
+		"funds" : NumberDecimal("127317.75")
+	},
+	{
+		"_id" : "THB",
+		"funds" : NumberDecimal("2084269.88")
+	},
+	{
+		"_id" : "PAB",
+		"funds" : NumberDecimal("363643.61")
+	},
+	{
+		"_id" : "MWK",
+		"funds" : NumberDecimal("88106.83")
+	},
+	{
+		"_id" : "KRW",
+		"funds" : NumberDecimal("433497.06")
+	},
+	{
+		"_id" : "ZMW",
+		"funds" : NumberDecimal("160940.53")
+	},
+	{
+		"_id" : "PKR",
+		"funds" : NumberDecimal("687770.55")
+	},
+	{
+		"_id" : "BIF",
+		"funds" : NumberDecimal("45782.33")
+	},
+	{
+		"_id" : "UGX",
+		"funds" : NumberDecimal("345203.25")
+	},
+	{
+		"_id" : "PEN",
+		"funds" : NumberDecimal("2356548.02")
+	},
+	{
+		"_id" : "BAM",
+		"funds" : NumberDecimal("415965.47")
+	},
+	{
+		"_id" : "PGK",
+		"funds" : NumberDecimal("61445.27")
+	},
+	{
+		"_id" : "PHP",
+		"funds" : NumberDecimal("8223429.02")
+	},
+	{
+		"_id" : "LYD",
+		"funds" : NumberDecimal("197545.65")
+	},
+	{
+		"_id" : "VEF",
+		"funds" : NumberDecimal("629053.41")
+	},
+	{
+		"_id" : "TZS",
+		"funds" : NumberDecimal("603855.99")
+	},
+	{
+		"_id" : "MAD",
+		"funds" : NumberDecimal("510936.11")
+	},
+	{
+		"_id" : "MZN",
+		"funds" : NumberDecimal("92068.64")
+	},
+	{
+		"_id" : "CAD",
+		"funds" : NumberDecimal("1973241.60")
+	},
+	{
+		"_id" : "MXN",
+		"funds" : NumberDecimal("1547673.09")
+	},
+	{
+		"_id" : "BZD",
+		"funds" : NumberDecimal("24296.69")
+	},
+	{
+		"_id" : "CLP",
+		"funds" : NumberDecimal("388620.14")
+	},
+	{
+		"_id" : "JOD",
+		"funds" : NumberDecimal("210496.68")
+	},
+	{
+		"_id" : "ERN",
+		"funds" : NumberDecimal("21598.47")
+	},
+	{
+		"_id" : "RUB",
+		"funds" : NumberDecimal("8532474.09")
+	},
+	{
+		"_id" : "TMT",
+		"funds" : NumberDecimal("113099.62")
+	},
+	{
+		"_id" : "KMF",
+		"funds" : NumberDecimal("138004.70")
+	},
+	{
+		"_id" : "JMD",
+		"funds" : NumberDecimal("201447.71")
+	},
+	{
+		"_id" : "GBP",
+		"funds" : NumberDecimal("243512.86")
+	},
+	{
+		"_id" : "SGD",
+		"funds" : NumberDecimal("12820.48")
+	},
+	{
+		"_id" : "LBP",
+		"funds" : NumberDecimal("43326.06")
+	},
+	{
+		"_id" : "EGP",
+		"funds" : NumberDecimal("528336.14")
+	},
+	{
+		"_id" : "AFN",
+		"funds" : NumberDecimal("661834.75")
+	},
+	{
+		"_id" : "RWF",
+		"funds" : NumberDecimal("43299.96")
+	},
+	{
+		"_id" : "LKR",
+		"funds" : NumberDecimal("225111.39")
+	},
+	{
+		"_id" : "AED",
+		"funds" : NumberDecimal("52973.33")
+	},
+	{
+		"_id" : "MUR",
+		"funds" : NumberDecimal("182130.48")
+	},
+	{
+		"_id" : "ZAR",
+		"funds" : NumberDecimal("932463.66")
+	},
+	{
+		"_id" : "KPW",
+		"funds" : NumberDecimal("222518.63")
+	},
+	{
+		"_id" : "MMK",
+		"funds" : NumberDecimal("223284.76")
+	},
+	{
+		"_id" : "BTN",
+		"funds" : NumberDecimal("37711.08")
+	},
+	{
+		"_id" : "OMR",
+		"funds" : NumberDecimal("87008.08")
+	},
+	{
+		"_id" : "ZWL",
+		"funds" : NumberDecimal("142978.86")
+	},
+	{
+		"_id" : "TWD",
+		"funds" : NumberDecimal("37654.00")
+	},
+	{
+		"_id" : "SBD",
+		"funds" : NumberDecimal("9983.00")
+	},
+	{
+		"_id" : "MOP",
+		"funds" : NumberDecimal("5337.77")
+	},
+	{
+		"_id" : "XCD",
+		"funds" : NumberDecimal("168150.01")
+	},
+	{
+		"_id" : "NOK",
+		"funds" : NumberDecimal("760113.61")
+	},
+	{
+		"_id" : "MYR",
+		"funds" : NumberDecimal("666533.65")
+	},
+	{
+		"_id" : "IDR",
+		"funds" : NumberDecimal("15619806.11")
+	},
+	{
+		"_id" : "IRR",
+		"funds" : NumberDecimal("804397.05")
+	},
+	{
+		"_id" : "BND",
+		"funds" : NumberDecimal("7782.66")
+	},
+	{
+		"_id" : "GEL",
+		"funds" : NumberDecimal("157276.96")
+	},
+	{
+		"_id" : "CHF",
+		"funds" : NumberDecimal("108940.64")
+	},
+	{
+		"_id" : "KZT",
+		"funds" : NumberDecimal("584923.20")
+	},
+	{
+		"_id" : "BRL",
+		"funds" : NumberDecimal("5609900.00")
+	},
+	{
+		"_id" : "NGN",
+		"funds" : NumberDecimal("1282147.14")
+	},
+	{
+		"_id" : "NIO",
+		"funds" : NumberDecimal("240664.87")
+	},
+	{
+		"_id" : "SSP",
+		"funds" : NumberDecimal("42256.53")
+	},
+	{
+		"_id" : "LTL",
+		"funds" : NumberDecimal("220627.42")
+	},
+	{
+		"_id" : "BDT",
+		"funds" : NumberDecimal("294843.38")
+	},
+	{
+		"_id" : "BYR",
+		"funds" : NumberDecimal("686489.84")
+	},
+	{
+		"_id" : "DJF",
+		"funds" : NumberDecimal("14734.27")
+	},
+	{
+		"_id" : "MDL",
+		"funds" : NumberDecimal("173318.73")
+	},
+	{
+		"_id" : "GYD",
+		"funds" : NumberDecimal("13053.50")
+	},
+	{
+		"_id" : "CZK",
+		"funds" : NumberDecimal("2644211.16")
+	},
+	{
+		"_id" : "CNY",
+		"funds" : NumberDecimal("27425502.27")
+	},
+	{
+		"_id" : "LRD",
+		"funds" : NumberDecimal("54883.45")
+	},
+	{
+		"_id" : "FJD",
+		"funds" : NumberDecimal("9321.43")
+	},
+	{
+		"_id" : "LSL",
+		"funds" : NumberDecimal("26269.07")
+	},
+	{
+		"_id" : "MVR",
+		"funds" : NumberDecimal("32068.85")
+	},
+	{
+		"_id" : "SYP",
+		"funds" : NumberDecimal("501467.35")
+	},
+	{
+		"_id" : "FKP",
+		"funds" : NumberDecimal("5118.97")
+	},
+	{
+		"_id" : "SEK",
+		"funds" : NumberDecimal("3706221.01")
+	},
+	{
+		"_id" : "BHD",
+		"funds" : NumberDecimal("22698.46")
+	},
+	{
+		"_id" : "DOP",
+		"funds" : NumberDecimal("534069.77")
+	},
+	{
+		"_id" : "UYU",
+		"funds" : NumberDecimal("231996.14")
+	},
+	{
+		"_id" : "RON",
+		"funds" : NumberDecimal("11557.60")
+	},
+	{
+		"_id" : "HNL",
+		"funds" : NumberDecimal("817695.24")
+	},
+	{
+		"_id" : "AOA",
+		"funds" : NumberDecimal("67582.80")
+	},
+	{
+		"_id" : "NAD",
+		"funds" : NumberDecimal("55420.34")
+	},
+	{
+		"_id" : "LAK",
+		"funds" : NumberDecimal("86305.05")
+	},
+	{
+		"_id" : "ANG",
+		"funds" : NumberDecimal("21354.39")
+	},
+	{
+		"_id" : "NPR",
+		"funds" : NumberDecimal("146606.65")
+	}
+]

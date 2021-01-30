@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fsYkZr5kYPBTzmBKZMxjZTBlcbnJlwUA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s21455>; rel="up"
+Last-Modified: Tue, 08 Dec 2020 14:05:41 GMT
+ETag: "31jaBK2rTpTv1xHtyHQMwf"
+Date: Tue, 08 Dec 2020 14:08:46 GMT
+Content-Type: application/json
+Content-Length: 104
+
+{"jedi":"Anakin Skywalker","combat form":"Djem So","midichlorian count":27700,"lightsaber color":"blue"}

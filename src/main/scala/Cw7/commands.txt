@@ -1,0 +1,19 @@
+1. curl -XPUT -H "Content-Type:application/json" -d '{"jedi":"Anakin Skywalker","combat form":"Djem So","midichlorian count":27700,"lightsaber color":"blue"}' http://localhost:8098/buckets/s21455/keys/anakin -i
+   curl -XPUT -H "Content-Type:application/json" -d '{"jedi":"Yoda","combat form":"Ataru","midichlorian count":17000,"lightsaber color":"green"}' http://localhost:8098/buckets/s21455/keys/yoda -i
+   curl -XPUT -H "Content-Type:application/json" -d '{"jedi":"Luke Skywalker","combat form":"Djem So","midichlorian count":14500,"lightsaber color":"blue/green"}' http://localhost:8098/buckets/s21455/keys/luke -i
+   curl -XPUT -H "Content-Type:application/json" -d '{"jedi":"Obi-Wan Kenobi","combat form":"Soresu","midichlorian count":13400,"lightsaber color":"blue"}' http://localhost:8098/buckets/s21455/keys/obiwan -i
+   curl -XPUT -H "Content-Type:application/json" -d '{"jedi":"Mace Windu","combat form":"Vaapad",midichlorian count":12000,"lightsaber color":"amethyst"}' http://localhost:8098/buckets/s21455/keys/mace -i
+
+2. curl -i http://localhost:8098/buckets/s21455/keys/anakin
+3. curl -XPUT -H "Content-Type:application/json" -d '{"jedi":"Anakin Skywalker","combat form":"Djem So","midichlorian count":27700,"lightsaber color":"blue", "child": "Luke Skywalker"}' http://localhost:8098/buckets/s21455/keys/anakin -i
+  curl -i http://localhost:8098/buckets/s21455/keys/anakin
+4. curl -XPUT -H "Content-Type:application/json" -d '{"jedi":"Yoda","combat form":"Ataru","midichlorian count":17000}' http://localhost:8098/buckets/s21455/keys/yoda -i
+   curl -i http://localhost:8098/buckets/s21455/keys/yoda
+5. curl -i -XPUT -H "Content-Type:application/json" -d '{"jedi":"Darth Vader","combat form":"Djem So","midichlorian count":27700,"lightsaber color":"red", "child": "Luke Skywalker"}' http://localhost:8098/buckets/s21455/keys/anakin
+   curl -i http://localhost:8098/buckets/s21455/keys/anakin
+6. curl -i -XDELETE http://localhost:8098/buckets/s21455/keys/mace
+   curl -i http://localhost:8098/buckets/s21455/keys?keys=true 
+7. curl -i http://localhost:8098/buckets/s21455/keys/mace
+8. curl -i -v http://localhost:8098/buckets/s21455/keys \ -H "Content-Type: application/json" -d '{"jedi":"Kit Fisto"}'
+9. curl -i http://localhost:8098/buckets/s21455/keys/JiQF2Js7rE8lY3U0c3FHwvprQRr
+10. curl -i -XDELETE http://localhost:8098/buckets/s21455/keys/JiQF2Js7rE8lY3U0c3FHwvprQRr

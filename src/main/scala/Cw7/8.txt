@@ -1,0 +1,38 @@
+* Hostname was NOT found in DNS cache
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> POST /buckets/s21455/keys HTTP/1.1
+> User-Agent: curl/7.38.0
+> Host: localhost:8098
+> Accept: */*
+> Content-Length: 20
+> Content-Type: application/x-www-form-urlencoded
+> 
+* upload completely sent off: 20 out of 20 bytes
+< HTTP/1.1 201 Created
+HTTP/1.1 201 Created
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+* Server MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho) is not blacklisted
+< Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+< Location: /buckets/s21455/keys/JiQF2Js7rE8lY3U0c3FHwvprQRr
+Location: /buckets/s21455/keys/JiQF2Js7rE8lY3U0c3FHwvprQRr
+< Date: Tue, 08 Dec 2020 14:15:39 GMT
+Date: Tue, 08 Dec 2020 14:15:39 GMT
+< Content-Type: application/x-www-form-urlencoded
+Content-Type: application/x-www-form-urlencoded
+< Content-Length: 0
+Content-Length: 0
+
+< 
+* Connection #0 to host localhost left intact
+* Rebuilt URL to:  -H/
+* Hostname was NOT found in DNS cache
+* Could not resolve host:  -H
+* Closing connection 1
+curl: (6) Could not resolve host:  -H
+* Hostname was NOT found in DNS cache
+* Could not resolve host: Content-Type
+* Closing connection 2
+curl: (6) Could not resolve host: Content-Type
